@@ -3,7 +3,8 @@ import { IBaseImage } from "../Interfaces/IBaseImage";
 /*
  * A hero image for the Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericHeroImage}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericHeroImage}
  */
 export class ToastGenericHeroImage implements IBaseImage {
     AddImageQuery?: boolean;

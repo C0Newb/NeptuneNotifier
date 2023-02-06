@@ -1,7 +1,8 @@
 /*
  * Specify what person this toast is related to. For more info, see the My People documentation. New in Fall Creators Update.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastPeople}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastPeople}
  */
 export class ToastPeople {
 

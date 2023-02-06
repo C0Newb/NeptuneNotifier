@@ -6,7 +6,8 @@ import { ToastGenericHeroImage } from "./ToastGenericHeroImage";
 /*
  * Generic Toast binding, where you provide text, images, and other visual elements for your Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastBindingGeneric}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastBindingGeneric}
  */
 export class ToastBindingGeneric {
     /**

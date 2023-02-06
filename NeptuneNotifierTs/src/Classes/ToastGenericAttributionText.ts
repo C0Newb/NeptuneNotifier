@@ -3,7 +3,8 @@ import { IBaseText } from "../Interfaces/IBaseText";
 /*
  * Defines an attribution text element to be displayed on the Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericAttributionText}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericAttributionText}
  */
 export class ToastGenericAttributionText implements IBaseText {
     Language?: string;

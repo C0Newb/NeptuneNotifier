@@ -4,7 +4,8 @@ import { ToastSelectionBoxItem } from "./ToastSelectionBoxItem";
 /**
  * A selection box control, which lets users pick from a dropdown list of options.
  *
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastSelectionBox}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastSelectionBox}
  */
 export class ToastSelectionBox implements IToastInput {
     /** Gets the required ID property used so that developers can retrieve user input once the app is activated. */

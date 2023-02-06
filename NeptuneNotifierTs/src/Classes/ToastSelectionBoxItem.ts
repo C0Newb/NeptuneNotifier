@@ -1,7 +1,8 @@
 /**
  * A selection box item (an item that the user can select from the drop down list).
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastselectionboxitem}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastselectionboxitem}
  */
 export class ToastSelectionBoxItem {
     private _Content: string;

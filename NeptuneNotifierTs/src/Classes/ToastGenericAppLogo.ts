@@ -4,7 +4,8 @@ import { IBaseImage } from "../Interfaces/IBaseImage";
 /*
  * The logo that is displayed on your Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericAppLogo}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericAppLogo}
  */
 export class ToastGenericAppLogo implements IBaseImage {
     AddImageQuery?: boolean;

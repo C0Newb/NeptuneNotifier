@@ -10,7 +10,8 @@ import { AdaptiveSubgroup } from "./AdaptiveSubgroup";
  * Supported on Tiles since RTM.
  * Supported on Toasts since Anniversary Update.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveGroup}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveGroup}
  */
 export class AdaptiveGroup implements IAdaptiveChild, ITitleBindingContentAdaptiveChild, IToastBindingGenericChild {
     /**

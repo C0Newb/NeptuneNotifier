@@ -1,7 +1,8 @@
 /**
  * One of `ToastButton`, `ToastButtonSnooze`, or `ToastButtonDismiss`.
  *
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.itoastbutton}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.itoastbutton}
  */
 export interface IToastButton {
     /**

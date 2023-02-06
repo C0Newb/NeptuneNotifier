@@ -1,7 +1,8 @@
 /*
  * Text style controls font size, weight, and opacity.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveTextStyle}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveTextStyle}
  */
 export enum AdaptiveTextStyle {
     /**	Style is determined by the renderer. */

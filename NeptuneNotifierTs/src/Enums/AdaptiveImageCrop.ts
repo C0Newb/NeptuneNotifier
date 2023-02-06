@@ -1,7 +1,8 @@
 /*
  * Specify the desired cropping of the image.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveImageCrop}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveImageCrop}
  */
 export enum AdaptiveImageCrop {
     /** Default value, cropping behavior determined by renderer. */
@@ -15,7 +16,8 @@ export enum AdaptiveImageCrop {
 /*
  * Specify the desired cropping of the image.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericAppLogoCrop}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastGenericAppLogoCrop}
  */
 export enum ToastGenericAppLogoCrop {
     /** Default value, cropping behavior determined by renderer. */

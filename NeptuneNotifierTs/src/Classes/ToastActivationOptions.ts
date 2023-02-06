@@ -3,7 +3,8 @@ import { ToastAfterActivationBehavior } from "../Enums/ToastAfterActivationBehav
 /**
  * New in Creators Update: Additional options relating to activation.
  *
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastactivationoptions}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastactivationoptions}
  */
 export class ToastActivationOptions {
     /**

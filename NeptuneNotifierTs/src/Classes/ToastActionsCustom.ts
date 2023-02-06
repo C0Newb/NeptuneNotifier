@@ -6,7 +6,8 @@ import { ToastContextMenuItem } from "./ToastContextMenuItem";
 /*
  * Automatically constructs a selection box for snooze intervals, and snooze/dismiss buttons, all automatically localized, and snoozing logic is automatically handled by the system.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastActionsSnoozeAndDismiss}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastActionsSnoozeAndDismiss}
  */
 export class ToastActionsCustom implements IToastActions {
     private _ContextMenuItems: ToastContextMenuItem[] = [];
@@ -22,10 +23,10 @@ export class ToastActionsCustom implements IToastActions {
      * 
      * @throws {RangeError} When too many buttons are added
      */
-    get Buttons(): IToastButton[] {
+    public get Buttons(): IToastButton[] {
         return this._Buttons;
     }
-    set Buttons(items: IToastButton[]) {
+    public set Buttons(items: IToastButton[]) {
         if (items.length > 5 - this._ContextMenuItems.length)
             throw RangeError("Too many buttons are being added.");
             //items = items.slice(0, 4-this._ContextMenuItems.length);
@@ -40,10 +41,10 @@ export class ToastActionsCustom implements IToastActions {
      * 
      * New in Anniversary Update.
      */
-    get ContextMenuItems(): ToastContextMenuItem[] {
+    public get ContextMenuItems(): ToastContextMenuItem[] {
         return this._ContextMenuItems;
     }
-    set ContextMenuItems(items: ToastContextMenuItem[]) {
+    public set ContextMenuItems(items: ToastContextMenuItem[]) {
         if (items.length > 5 - this._ContextMenuItems.length)
             throw RangeError("Too many context menu items are being added.");
         this._ContextMenuItems = items;
@@ -54,10 +55,10 @@ export class ToastActionsCustom implements IToastActions {
      * 
      * Only up to 5 inputs can be added; after that, an exception is thrown.
      */
-    get Inputs(): IToastInput[] {
+    public get Inputs(): IToastInput[] {
         return this._Inputs;
     }
-    set Inputs(items: IToastInput[]) {
+    public set Inputs(items: IToastInput[]) {
         if (items.length > 5)
             throw RangeError("Too many inputs are being added.");
         this._Inputs = items;

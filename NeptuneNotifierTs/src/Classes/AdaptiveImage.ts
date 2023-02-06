@@ -9,7 +9,8 @@ import { IToastBindingGenericChild } from "../Interfaces/IToastBindingGenericChi
 /**
  * An inline image.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.adaptiveimage}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.adaptiveimage}
  */
 export class AdaptiveImage implements IAdaptiveChild, IAdaptiveSubgroupChild, IBaseImage, ITitleBindingContentAdaptiveChild, IToastBindingGenericChild {
     AddImageQuery?: boolean;

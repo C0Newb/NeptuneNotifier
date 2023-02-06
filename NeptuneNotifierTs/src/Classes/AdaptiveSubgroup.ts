@@ -4,7 +4,8 @@ import { IAdaptiveSubgroupChild } from "../Interfaces/IAdaptiveSubgroupChild";
 /**
  * Subgroups are vertical columns that can contain text and images. Supported on Tiles since RTM. Supported on Toasts since Anniversary Update.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.adptivesubgroup}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.adptivesubgroup}
  */
 export class AdaptiveSubgroup {
     /** Gets a list of Children. {@link AdaptiveText} and {@link AdaptiveImage} are valid children of subgroups. */

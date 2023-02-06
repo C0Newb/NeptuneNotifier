@@ -1,10 +1,11 @@
 import { ToastBindingGeneric } from "./ToastBindingGeneric";
-import { ToastBindingShoulderTap } from "./ToastBindingShouldTap";
+import { ToastBindingShoulderTap } from "./ToastBindingShoulderTap";
 
 /*
  * Defines the visual aspects of a Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastVisual}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastVisual}
  */
 export class ToastVisual {
     /**

@@ -4,7 +4,8 @@ import { ToastSpriteSheet } from "./ToastSpriteSheet";
 /*
  * Specifies the image to be displayed on a My People shoulder tap notification. New in Fall Creators Update.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastShouldTapImage}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastShouldTapImage}
  */
 export class ToastShouldTapImage implements IBaseImage {
     AddImageQuery?: boolean;

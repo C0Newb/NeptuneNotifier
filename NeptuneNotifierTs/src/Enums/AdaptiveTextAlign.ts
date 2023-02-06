@@ -1,7 +1,8 @@
 /*
  * Controls the horizontal alignment of text.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveTextAlign}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveTextAlign}
  */
 export enum AdaptiveTextAlign {
     /** Alignment is automatically determined by */

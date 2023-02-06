@@ -4,7 +4,8 @@ import { ToastActivationOptions } from "./ToastActivationOptions";
 /**
  * Defines a visual header for the toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastheader}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastheader}
  */
 export class ToastHeader {
     /** Gets or sets additional options relating to activation of the toast header. New in Creators Update */

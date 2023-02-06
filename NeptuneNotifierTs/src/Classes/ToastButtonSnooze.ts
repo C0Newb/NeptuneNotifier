@@ -3,7 +3,8 @@ import { IToastButton } from "../Interfaces/IToastButton";
 /**
  * A button that the user can click on a Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastbuttonsnooze}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastbuttonsnooze}
  */
 export class ToastButtonSnooze implements IToastButton {
     /**

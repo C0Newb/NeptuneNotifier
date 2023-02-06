@@ -1,7 +1,8 @@
 /**
  * Specifies the horizontal alignment for an image.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveImageAlign}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveImageAlign}
  */
 export enum AdaptiveImageAlign {
     /** Default value, alignment behavior determined by renderer. */

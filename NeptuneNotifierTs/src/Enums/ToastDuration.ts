@@ -1,7 +1,8 @@
 /**
  * The amount of time the Toast should display.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastduration}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastduration}
  */
 export enum ToastDuration {
     /** Default value. Toast appears for a short while and then goes into Action Center */

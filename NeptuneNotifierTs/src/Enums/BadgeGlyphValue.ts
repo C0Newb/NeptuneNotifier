@@ -1,7 +1,8 @@
 /*
  * The types of glyphs that can be placed on a badge.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.BadgeGlyphValue}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.BadgeGlyphValue}
  */
 export enum BadgeGlyphValue {
     /** No glyph. If there is a numeric badge, or a glyph currently on the badge, it will be removed. */

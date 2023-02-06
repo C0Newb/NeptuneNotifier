@@ -5,7 +5,8 @@ import { Utilities } from "../Utilities";
 /*
  * Notification content object to display a number on a Tile's badge
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.BadgeNumericContent}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.BadgeNumericContent}
  */
 export class BadgeNumericContent implements INotificationContent {
     /** Gets or sets the number that will appear on the badge. If the number is 0, the badge will be removed. */

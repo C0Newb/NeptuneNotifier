@@ -3,7 +3,8 @@ import { IToastButton } from "../Interfaces/IToastButton";
 /**
  * A button that, when clicked, is interpreted as a "dismiss" by the system, and the Toast is dismissed just like if the user swiped the Toast away.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastbuttondismiss}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastbuttondismiss}
  */
 export class ToastButtonDismiss implements IToastButton {
     /**

@@ -4,7 +4,8 @@ import { ToastContextMenuItem } from "./ToastContextMenuItem";
 /*
  * Automatically constructs a selection box for snooze intervals, and snooze/dismiss buttons, all automatically localized, and snoozing logic is automatically handled by the system.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastActionsSnoozeAndDismiss}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastActionsSnoozeAndDismiss}
  */
 export class ToastActionsSnoozeAndDismiss implements IToastActions {
     /**

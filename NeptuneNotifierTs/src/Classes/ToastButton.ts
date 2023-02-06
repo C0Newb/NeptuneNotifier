@@ -5,7 +5,8 @@ import { IToastButton } from "../Interfaces/IToastButton";
 /**
  * A button that the user can click on a Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastbutton}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastbutton}
  */
 export class ToastButton implements IToastButton {
     /** Gets or sets additional options relating to activation of the toast button. New in Creators Update */

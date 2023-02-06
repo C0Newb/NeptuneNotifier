@@ -4,7 +4,8 @@ import { IBaseImage } from "../Interfaces/IBaseImage";
 /*
  * A peek image that animates in from the top of the Tile
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.TilePeekImage}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.TilePeekImage}
  */
 export class TilePeekImage implements IBaseImage {
     AddImageQuery?: boolean;

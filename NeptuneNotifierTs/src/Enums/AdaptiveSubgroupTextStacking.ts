@@ -1,7 +1,8 @@
 /*
  * TextStacking specifies the vertical alignment of content.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveSubgroupTextStacking}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveSubgroupTextStacking}
  */
 export enum AdaptiveSubgroupTextStacking {
     /** Renderer automatically selects the default vertical alignment */

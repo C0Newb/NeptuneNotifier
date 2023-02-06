@@ -9,7 +9,8 @@ import { AdaptiveTextAlign } from "../Enums/AdaptiveTextAlign";
 /*
  * An adaptive text element
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveText}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveText}
  */
 export class AdaptiveText implements IAdaptiveChild, IAdaptiveSubgroupChild, ITitleBindingContentAdaptiveChild, IToastBindingGenericChild {
     /**

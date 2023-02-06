@@ -3,7 +3,8 @@ import { IToastBindingGenericChild } from "../Interfaces/IToastBindingGenericChi
 /*
  * New in Creators Update: A progress bar. Only supported on toasts on Desktop, build 15007 or newer.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveProgressBar}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.AdaptiveProgressBar}
  */
 export class AdaptiveProgressBar implements IToastBindingGenericChild {
     Status?: string;

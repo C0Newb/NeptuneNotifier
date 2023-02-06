@@ -4,7 +4,8 @@ import { ToastActivationOptions } from "./ToastActivationOptions";
 /*
  * A Toast context menu item.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastContextMenuItem}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastContextMenuItem}
  */
 export class ToastContextMenuItem {
     /** Gets or sets additional options relating to activation of the toast context menu item. New in Creators Update */

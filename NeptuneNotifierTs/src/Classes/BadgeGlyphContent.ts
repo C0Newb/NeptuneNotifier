@@ -7,7 +7,8 @@ import { create } from "xmlbuilder2";
 /*
  * Notification content object to display a glyph on a Tile's badge.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.BadgeGlyphContent}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.BadgeGlyphContent}
  */
 export class BadgeGlyphContent implements INotificationContent {
     /** Gets or sets the glyph to be displayed on the badge. */

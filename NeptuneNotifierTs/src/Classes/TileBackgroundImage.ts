@@ -4,7 +4,8 @@ import { IBaseImage } from "../Interfaces/IBaseImage";
 /*
  * A full-bleed background image that appears beneath the Tile content.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.TileBackgroundImage}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.TileBackgroundImage}
  */
 export class TileBackgroundImage implements IBaseImage {
     AddImageQuery?: boolean;

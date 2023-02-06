@@ -3,7 +3,8 @@ import { IToastInput } from "../Interfaces/IToastInput";
 /*
  * 
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastTextBox}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ToastTextBox}
  */
 export class ToastTextBox implements IToastInput {
     /** Gets or sets the initial text to place in the text box. Leave this null for a blank text box. */

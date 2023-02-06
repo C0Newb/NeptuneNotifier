@@ -1,7 +1,8 @@
 /**
  * Specifies the behavior that the toast should use when the user takes action on the toast.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastafteractivationbehavior}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastafteractivationbehavior}
  */
 export enum ToastAfterActivationBehavior {
     /** Default behavior. The toast will be dismissed when the user takes action on the toast. */

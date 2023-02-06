@@ -1,7 +1,8 @@
 /**
  * Contains the base properties that an image needs. 
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ibaseimage}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.ibaseimage}
  */
 export interface IBaseImage{
     /**

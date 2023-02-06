@@ -1,7 +1,8 @@
 /**
  * Decides the type of activation that will be used when the user interacts with the Toast notification.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastactivationtype}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastactivationtype}
  */
 export enum ToastActivationType {
     /** Default value. Your foreground app is launched. */

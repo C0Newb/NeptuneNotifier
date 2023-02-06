@@ -1,7 +1,8 @@
 /**
  * Specify audio to be played when the Toast notification is received.
  *
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastaudio}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastaudio}
  */
 export class ToastAudio {
     /** Gets or sets a value indicating whether sound should repeat as long as the Toast is shown; false to play only once (default). */

@@ -1,7 +1,8 @@
 /*
  * Base notification content interface to retrieve notification XML as a string.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.INotificationContent}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.INotificationContent}
  */
 export interface INotificationContent {
     /**

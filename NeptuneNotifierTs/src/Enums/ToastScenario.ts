@@ -1,7 +1,8 @@
 /**
  * Specifies the scenario, controlling behaviors about the Toast.
  *  
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastscenario}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.toastscenario}
  */
 export enum ToastScenario {
     /** The normal Toast behavior. The Toast appears for a short duration, and then automatically dismisses into Action Center. */

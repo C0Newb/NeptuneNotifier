@@ -1,7 +1,8 @@
 /*
  * Defines the basic properties of a text element.
  * 
- * External MS doc: {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.IBaseText}
+ * @remarks
+ * More info at  {@link https://learn.microsoft.com/en-us/dotnet/api/microsoft.toolkit.uwp.notifications.IBaseText}
  */
 export interface IBaseText {
     /**
